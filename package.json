@@ -1,17 +1,17 @@
 {
-	"name": "p-init-cli",
+	"name": "node-pkg-creator",
 	"version": "1.0.0",
 	"main": "index.js",
 	"bin": {
-		"init-proj": "index.js"
+		"nodepkg": "index.js"
 	},
 	"scripts": {
 		"test": "jest --watchAll",
 		"unit": "jest -c jest.config.unit.js",
 		"integration": "jest -c jest.config.integration.js"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "Barta Gergo",
+	"license": "copryright bartag",
 	"dependencies": {
 		"@types/yargs": "^13.0.3",
 		"cli-spinner": "^0.2.10",
@@ -20,7 +20,5 @@
 		"fs-extra": "^8.1.0",
 		"jest": "^24.9.0",
 		"yargs": "^14.0.0"
-	},
-	"readme": "ERROR: No README data found!",
-	"_id": "p-init-cli@1.0.0"
+	}
 }
