@@ -33,7 +33,7 @@ async function installTestRelatedPackages() {
 async function installEslint() {
 	const spinner = new SpinnerExt('%s Install eslint');
 	spinner.start();
-	await execCwd('npm i eslint-config-gamma eslint --save-dev');
+	await execCwd('npm i eslint-config-ndpkg eslint --save-dev');
 	spinner.stop();
 	console.log("\n");
 }
